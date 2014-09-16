@@ -10,10 +10,10 @@
 $ npm search <term>
 ```
 
-### Install package (-g: global)
+### Install package and save it to package.json
 
 ```bash
-$ npm install [-g] <package-name>
+$ npm install [-g] <package-name> [--save-dev]
 ```
 
 ### List packages
@@ -94,7 +94,6 @@ $ bower install <package-name> [--save]
 $ bower home <package-name>
 ```
 
-
 ### List packages
 
 ```bash
@@ -115,7 +114,21 @@ $ bower uninstall <package-name> [--save]
 
 ## Grunt
 
+### See all available commands of a grunt project
+
+```bash
+$ grunt --help
+```
+
+### See what grunt does
+
+```bash
+$ grunt --v
+```
+
 ## Semver
+
+
 
 ## Sources
 

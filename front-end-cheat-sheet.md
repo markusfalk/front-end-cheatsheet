@@ -85,7 +85,7 @@ $ bower search <package-name>
 ### Install package and save to bower.json
 
 ```bash
-$ bower install <package-name> [--save]
+$ bower install <package-name>#<semver> [--save]
 ```
 
 ### Go to homepage of package
@@ -128,6 +128,19 @@ $ grunt --v
 
 ## Semver
 
+Version | Explanation
+------------ | -------------
+1.2.3 | A specific version
+>1.2.3 | Greater than a specific version
+<1.2.3 | Less than a specific version
+>=1.2.3 | Greater than or equal to
+<=1.2.3 | Less than or equal to
+~1.2.3 | (>=1.2.3 <1.3.0) close to 1.2.3
+^1.2.3 | (>=1.2.3 <2.0.0) compatible with 1.2.3
+^0.1.3 | (0.1.3) 0.x.x = unstable
+~1.2 | (>=1.2.0-0 <1.3.0-0) any version starting with 1.2
+^1.2 | (>=1.2.0-0 <2.0.0-0) any version compatible with 1.2
+* | any version
 
 
 ## Sources

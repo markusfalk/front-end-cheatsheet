@@ -1,5 +1,15 @@
 # Front End Cheat Sheet
 
+* Legend: `<>` required, `[]` optional
+
+## Node
+
+### Install node package
+
+```bash
+$ npm install [-g] <package-name>
+```
+
 ## Yeoman
 
 ## Grunt
@@ -14,6 +24,7 @@
 * http://gruntjs.com/getting-started
 * http://bower.io/docs/api/
 * https://www.npmjs.org/doc/misc/semver.html
+* https://www.npmjs.org/doc/
 
 ## About
 

@@ -74,9 +74,46 @@ $ yo <generator-name> [--flags]
 $ yo <generator-name>:<sub-generator-name> [arguments]
 ```
 
-## Grunt
-
 ## Bower
+
+### Search for a package
+
+```bash
+$ bower search <package-name>
+```
+
+### Install package and save to bower.json
+
+```bash
+$ bower install <package-name> [--save]
+```
+
+### Go to homepage of package
+
+```bash
+$ bower home <package-name>
+```
+
+
+### List packages
+
+```bash
+$ bower ls
+```
+
+### Update a package
+
+```bash
+$ bower update <package-name>
+```
+
+### Remove a package and save to bower.json
+
+```bash
+$ bower uninstall <package-name> [--save]
+```
+
+## Grunt
 
 ## Semver
 
@@ -85,7 +122,6 @@ $ yo <generator-name>:<sub-generator-name> [arguments]
 * http://yeoman.io/learning/index.html
 * http://gruntjs.com/getting-started
 * http://bower.io/docs/api/
-* https://www.npmjs.org/doc/misc/semver.html
 * https://www.npmjs.org/doc/
 
 ## About

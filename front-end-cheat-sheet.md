@@ -10,7 +10,7 @@
 $ npm search <term>
 ```
 
-### Install package
+### Install package (-g: global)
 
 ```bash
 $ npm install [-g] <package-name>
@@ -22,10 +22,16 @@ $ npm install [-g] <package-name>
 $ npm ls [package-name]
 ```
 
+### Go to documentation page of package
+
+```bash
+$ npm docs [package-name]
+```
+
 ### Go to issue page of package
 
 ```bash
-$ npm bugs <package-name>
+$ npm bugs [package-name]
 ```
 
 ### List outdated packages

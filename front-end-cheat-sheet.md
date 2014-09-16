@@ -4,10 +4,40 @@
 
 ## Node
 
-### Install node package
+### Search the registry for package
+
+```bash
+$ npm search <term>
+```
+
+### Install package
 
 ```bash
 $ npm install [-g] <package-name>
+```
+
+### Update packages
+
+```bash
+$ npm update [package-name]
+```
+
+### Remove packages
+
+```bash
+$ npm rm <package-name>
+```
+
+### List packages
+
+```bash
+$ npm ls [package-name]
+```
+
+### List outdated packages
+
+```bash
+$ npm outdated
 ```
 
 ## Yeoman

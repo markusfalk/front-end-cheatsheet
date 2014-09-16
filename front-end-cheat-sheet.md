@@ -54,6 +54,26 @@ $ npm rm <package-name>
 
 ## Yeoman
 
+
+### Install a generator
+
+```bash
+$ npm install -g <generator-name>
+```
+
+### Use a generator
+
+```bash
+$ yo
+$ yo <generator-name> [--flags]
+```
+
+### use a sub-generator
+
+```bash
+$ yo <generator-name>:<sub-generator-name> [arguments]
+```
+
 ## Grunt
 
 ## Bower

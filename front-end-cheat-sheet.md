@@ -16,6 +16,24 @@ $ npm search <term>
 $ npm install [-g] <package-name>
 ```
 
+### List packages
+
+```bash
+$ npm ls [package-name]
+```
+
+### Go to issue page of package
+
+```bash
+$ npm bugs <package-name>
+```
+
+### List outdated packages
+
+```bash
+$ npm outdated
+```
+
 ### Update packages
 
 ```bash
@@ -26,18 +44,6 @@ $ npm update [package-name]
 
 ```bash
 $ npm rm <package-name>
-```
-
-### List packages
-
-```bash
-$ npm ls [package-name]
-```
-
-### List outdated packages
-
-```bash
-$ npm outdated
 ```
 
 ## Yeoman

@@ -4,7 +4,8 @@ module.exports = function(grunt) {
 
     markdownpdf: {
       options: {
-        cssPath: "style.css"
+        cssPath: "style.css",
+        paperOrientation: "landscape"
       },
       files: {
         src: "front-end-cheat-sheet.md",

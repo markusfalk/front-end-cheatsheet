@@ -1,0 +1,281 @@
+<!DOCTYPE  html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>doc</title>
+    <style>
+
+    body {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 12px;
+  -webkit-column-rule: 1px dashed #ccc;
+  -moz-column-count: 4;
+  -moz-column-gap: 12px;
+  -moz-column-rule: 1px dashed #ccc;
+  column-count: 4;
+  column-gap: 12px;
+  column-rule: 1px dashed #ccc;
+  color: #333;
+  font-family: Helvetica Neue, Helvetica, Arial, FreeSans, sans-serif;
+}
+
+code {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  color: steelblue;
+  font-size: 26px;
+}
+
+a {
+  color: steelblue;
+}
+
+h3 {
+  color: #222;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+a {
+  color: steelblue;
+}
+
+
+      /*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
+      pre code {
+        display: block; padding: 0.5em;
+        color: #333;
+        background: #f8f8ff
+      }
+      pre .comment,
+      pre .template_comment,
+      pre .diff .header,
+      pre .javadoc {
+        color: #998;
+        font-style: italic
+      }
+      pre .keyword,
+      pre .css .rule .keyword,
+      pre .winutils,
+      pre .javascript .title,
+      pre .nginx .title,
+      pre .subst,
+      pre .request,
+      pre .status {
+        color: #333;
+        font-weight: bold
+      }
+      pre .number,
+      pre .hexcolor,
+      pre .ruby .constant {
+        color: #099;
+      }
+      pre .string,
+      pre .tag .value,
+      pre .phpdoc,
+      pre .tex .formula {
+        color: #d14
+      }
+      pre .title,
+      pre .id {
+        color: #900;
+        font-weight: bold
+      }
+      pre .javascript .title,
+      pre .lisp .title,
+      pre .clojure .title,
+      pre .subst {
+        font-weight: normal
+      }
+      pre .class .title,
+      pre .haskell .type,
+      pre .vhdl .literal,
+      pre .tex .command {
+        color: #458;
+        font-weight: bold
+      }
+      pre .tag,
+      pre .tag .title,
+      pre .rules .property,
+      pre .django .tag .keyword {
+        color: #000080;
+        font-weight: normal
+      }
+      pre .attribute,
+      pre .variable,
+      pre .lisp .body {
+        color: #008080
+      }
+      pre .regexp {
+        color: #009926
+      }
+      pre .class {
+        color: #458;
+        font-weight: bold
+      }
+      pre .symbol,
+      pre .ruby .symbol .string,
+      pre .lisp .keyword,
+      pre .tex .special,
+      pre .prompt {
+        color: #990073
+      }
+      pre .built_in,
+      pre .lisp .title,
+      pre .clojure .built_in {
+        color: #0086b3
+      }
+      pre .preprocessor,
+      pre .pi,
+      pre .doctype,
+      pre .shebang,
+      pre .cdata {
+        color: #999;
+        font-weight: bold
+      }
+      pre .deletion {
+        background: #fdd
+      }
+      pre .addition {
+        background: #dfd
+      }
+      pre .diff .change {
+        background: #0086b3
+      }
+      pre .chunk {
+        color: #aaa
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="front-end-cheat-sheet">Front End Cheat Sheet</h1>
+<ul>
+<li>Legend: <code>&lt;&gt;</code> required, <code>[]</code> optional</li>
+</ul>
+<h2 id="node">Node</h2>
+<h3 id="search-the-registry-for-package">Search the registry for package</h3>
+<pre><code class="lang-bash">$ npm search &lt;term&gt;</code></pre>
+<h3 id="install-package-and-save-it-to-package-json">Install package and save it to package.json</h3>
+<pre><code class="lang-bash">$ npm install [-g] &lt;package-name&gt; [--save-dev]</code></pre>
+<h3 id="list-packages">List packages</h3>
+<pre><code class="lang-bash">$ npm ls [package-name]</code></pre>
+<h3 id="go-to-documentation-page-of-package">Go to documentation page of package</h3>
+<pre><code class="lang-bash">$ npm docs [package-name]</code></pre>
+<h3 id="go-to-issue-page-of-package">Go to issue page of package</h3>
+<pre><code class="lang-bash">$ npm bugs [package-name]</code></pre>
+<h3 id="list-outdated-packages">List outdated packages</h3>
+<pre><code class="lang-bash">$ npm outdated</code></pre>
+<h3 id="update-packages">Update packages</h3>
+<pre><code class="lang-bash">$ npm update [package-name]</code></pre>
+<h3 id="remove-packages">Remove packages</h3>
+<pre><code class="lang-bash">$ npm rm &lt;package-name&gt;</code></pre>
+<h2 id="yeoman">Yeoman</h2>
+<h3 id="install-a-generator">Install a generator</h3>
+<pre><code class="lang-bash">$ npm install -g &lt;generator-name&gt;</code></pre>
+<h3 id="use-a-generator">Use a generator</h3>
+<pre><code class="lang-bash">$ yo
+$ yo &lt;generator-name&gt; [--flags]</code></pre>
+<h3 id="use-a-sub-generator">use a sub-generator</h3>
+<pre><code class="lang-bash">$ yo &lt;generator-name&gt;:&lt;sub-generator-name&gt; [arguments]</code></pre>
+<h2 id="bower">Bower</h2>
+<h3 id="search-for-a-package">Search for a package</h3>
+<pre><code class="lang-bash">$ bower search &lt;package-name&gt;</code></pre>
+<h3 id="install-package-and-save-to-bower-json">Install package and save to bower.json</h3>
+<pre><code class="lang-bash">$ bower install &lt;package-name&gt;#&lt;semver&gt; [--save]</code></pre>
+<h3 id="go-to-homepage-of-package">Go to homepage of package</h3>
+<pre><code class="lang-bash">$ bower home &lt;package-name&gt;</code></pre>
+<h3 id="list-packages">List packages</h3>
+<pre><code class="lang-bash">$ bower ls</code></pre>
+<h3 id="update-a-package">Update a package</h3>
+<pre><code class="lang-bash">$ bower update &lt;package-name&gt;</code></pre>
+<h3 id="remove-a-package-and-save-to-bower-json">Remove a package and save to bower.json</h3>
+<pre><code class="lang-bash">$ bower uninstall &lt;package-name&gt; [--save]</code></pre>
+<h2 id="grunt">Grunt</h2>
+<h3 id="see-all-available-commands-of-a-grunt-project">See all available commands of a grunt project</h3>
+<pre><code class="lang-bash">$ grunt --help</code></pre>
+<h3 id="see-what-grunt-does">See what grunt does</h3>
+<pre><code class="lang-bash">$ grunt --v</code></pre>
+<h2 id="semver">Semver</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.2.3</td>
+<td>A specific version</td>
+</tr>
+<tr>
+<td>&gt;1.2.3</td>
+<td>Greater than a specific version</td>
+</tr>
+<tr>
+<td>&lt;1.2.3</td>
+<td>Less than a specific version</td>
+</tr>
+<tr>
+<td>&gt;=1.2.3</td>
+<td>Greater than or equal to</td>
+</tr>
+<tr>
+<td>&lt;=1.2.3</td>
+<td>Less than or equal to</td>
+</tr>
+<tr>
+<td>~1.2.3</td>
+<td>(&gt;=1.2.3 &lt;1.3.0) close to 1.2.3</td>
+</tr>
+<tr>
+<td>^1.2.3</td>
+<td>(&gt;=1.2.3 &lt;2.0.0) compatible with 1.2.3</td>
+</tr>
+<tr>
+<td>^0.1.3</td>
+<td>(0.1.3) 0.x.x = unstable</td>
+</tr>
+<tr>
+<td>~1.2</td>
+<td>(&gt;=1.2.0-0 &lt;1.3.0-0) any version starting with 1.2</td>
+</tr>
+<tr>
+<td>^1.2</td>
+<td>(&gt;=1.2.0-0 &lt;2.0.0-0) any version compatible with 1.2</td>
+</tr>
+<tr>
+<td>*</td>
+<td>any version</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="http://yeoman.io/learning/index.html">http://yeoman.io/learning/index.html</a></li>
+<li><a href="http://gruntjs.com/getting-started">http://gruntjs.com/getting-started</a></li>
+<li><a href="http://bower.io/docs/api/">http://bower.io/docs/api/</a></li>
+<li><a href="https://www.npmjs.org/doc/">https://www.npmjs.org/doc/</a></li>
+</ul>
+<h2 id="about">About</h2>
+<ul>
+<li>Creator: <a href="https://twitter.com/markus_falk">@markus_falk</a></li>
+<li>License: <a href="https://tldrlegal.com/license/mit-license">MIT</a></li>
+<li>Disclaimer: <a href="http://i.minus.com/ibxEw6l6IvBlwd.jpg">I Have No Idea What I&#39;m Doing</a></li>
+</ul>
+
+  </body>
+</html>

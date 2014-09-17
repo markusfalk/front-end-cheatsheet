@@ -1,0 +1,34 @@
+body {
+  -webkit-column-count: 4;
+  -webkit-column-gap: 12px;
+  -webkit-column-rule: 1px dashed #ccc;
+  color: #333;
+  font-family: Helvetica Neue, Helvetica, Arial, FreeSans, sans-serif;
+}
+
+code {
+  font-weight: bold;
+}
+
+a,
+h1,
+h2 {
+  color: steelblue;
+  font-size: 26px;
+}
+
+h3 {
+  color: #222;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid silver;
+  padding: 5px;
+}
+

@@ -33,12 +33,31 @@ module.exports = function(grunt) {
       }
     },
 
+    compass: {
+      options: {
+        // banner: "/* <%= pkg.author %>, Version: <%= pkg.version %> */",
+        // httpPath: "/build",
+        // imagesPath: 'assets/img',
+        // specify: '*.scss'
+        asset_cache_buster: false,
+        cssDir: 'css',
+        // httpImagesPath: '/img',
+        // imagesDir: 'build/img',
+        noLineComments: true,
+        sassDir: 'scss'
+      },
+      development: {
+        options: {
+          environment: 'development'
+        }
+      }
+    }
+
+
   });
 
-  grunt.loadNpmTasks('grunt-markdown-pdf');
-  grunt.loadNpmTasks('grunt-markdown');
-  grunt.loadNpmTasks('grunt-wkhtmltopdf');
+  grunt.loadNpmTasks('grunt-contrib-compass');
 
-  grunt.registerTask('default', ['markdown']);
+  grunt.registerTask('default', ['markdownpdf']);
 
 };

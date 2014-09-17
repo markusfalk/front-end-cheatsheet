@@ -76,42 +76,54 @@ a {
   color: steelblue;
 }
 
-.meta h2,
-.meta li {
-  font-size: 12px;
+.meta {
+  h2,
+  li {
+    font-size: 12px;
+  }
 }
 
-.node h2 {
-  color: #cc3d33;
-}
-.node code,
-.node pre {
-  background-color: #cc3d33;
+.node {
+
+  h2 {
+    color: #cc3d33;
+  }
+  code,
+  pre {
+    background-color: #cc3d33;
+  }
 }
 
-.yeoman h2 {
-  color: #0096c7;
-}
-.yeoman code,
-.yeoman pre {
-  background-color: #0096c7;
+.yeoman {
+
+  h2 {
+    color: #0096c7;
+  }
+  code,
+  pre {
+    background-color: #0096c7;
+  }
 }
 
 .grunt {
   margin-top: 84px;
-}
-.grunt h2 {
-  color: #e48632;
-}
-.grunt code,
-.grunt pre {
-  background-color: #e48632;
+
+  h2 {
+    color: #e48632;
+  }
+  code,
+  pre {
+    background-color: #e48632;
+  }
 }
 
-.bower h2 {
-  color: #543729;
-}
-.bower code,
-.bower pre {
-  background-color: #543729;
+.bower {
+
+  h2 {
+    color: #543729;
+  }
+  code,
+  pre {
+    background-color: #543729;
+  }
 }

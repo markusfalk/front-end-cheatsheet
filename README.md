@@ -1,7 +1,7 @@
 front-end-cheatsheet
 ====================
 
-A cheatsheet with common commands for
+A cheat sheet with common commands for
 
 * Node
 * Yeoman

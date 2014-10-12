@@ -64,7 +64,7 @@ div {
 
 ul {
   padding-left: 20px;
-  margin: 0 0 25px 0;
+  margin: 0 0 5px 0;
 }
 
 li {
@@ -76,11 +76,9 @@ a {
   color: steelblue;
 }
 
-.meta {
-  h2,
-  li {
-    font-size: 12px;
-  }
+.meta h2,
+li {
+  font-size: 12px;
 }
 
 .node {

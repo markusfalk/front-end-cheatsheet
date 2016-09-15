@@ -89,12 +89,12 @@ li {
   background-color: #cc3d33;
 }
 
-.yeoman h2 {
-  color: #0096c7;
+.angular h2 {
+  color: rgb(25,118,210);
 }
-.yeoman code,
-.yeoman pre {
-  background-color: #0096c7;
+.angular code,
+.angular pre {
+  background-color: rgb(25,118,210);
 }
 
 .grunt h2 {

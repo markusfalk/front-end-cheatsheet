@@ -1,12 +1,9 @@
-front-end-cheatsheet
-====================
+# front-end-cheatsheet
 
 A cheat sheet with common commands for
 
 * Node
-* Yeoman
-* Grunt
-* Bower
+* Angular CLI
 
 and additional infos about semver version ranges.
 

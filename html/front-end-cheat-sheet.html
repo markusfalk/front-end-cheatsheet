@@ -93,11 +93,11 @@ expect(spy).<strong>toHaveBeenCalledWith</strong>(...arguments); -->
 
         <h3>Syntax</h3>
         <pre><code><strong>describe</strong>("A suite", () => {
-    <strong>beforeEach</strong>(function() {
+    <strong>beforeEach</strong>(() => {
     });
-    <strong>afterEach</strong>(function() {
+    <strong>afterEach</strong>(() => {
     });
-    <strong>it</strong>("an assertion", function() {
+    <strong>it</strong>("an assertion", () => {
       <strong>expect</strong>(true).<strong>toBe</strong>(true);
     });
 });</code></pre>

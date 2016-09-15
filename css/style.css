@@ -97,12 +97,16 @@ li {
   background-color: rgb(25,118,210);
 }
 
-.grunt h2 {
-  color: #e48632;
+.jasmine h2 {
+  color: #8a4182;
 }
-.grunt code,
-.grunt pre {
-  background-color: #e48632;
+.jasmine code,
+.jasmine pre {
+  background-color: #8a4182;
+}
+
+.jasmine code strong {
+  color: yellow;
 }
 
 .bower h2 {
